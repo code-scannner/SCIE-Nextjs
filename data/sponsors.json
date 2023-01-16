@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Ace Academy",
+        "link":"https://www.aceenggacademy.com/",
+        "pic":"ace.png"
+    },
+    {
+        "name":"HerMoney Talks",
+        "pic":"hermoney.png",
+        "link":"https://hermoneytalks.com/"
+    },
+    {
+        "name":"Inmovidu Tech",
+        "link":"http://www.inmovidutech.com/",
+        "pic":"inmovidu.png"
+    },
+    {
+        "name":"Finlatics",
+        "pic":"finlatics.png",
+        "link":"https://www.finlatics.com/"
+    },
+    {
+        "name":"Jamboree",
+        "pic":"jamboree.png",
+        "link":"https://www.jamboreeindia.com/"
+    }
+]
