@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default class About extends Component {
     render() {
         return (
-            <div className='my-12'>
+            <div className='my-12' id='about'>
                 <OneColorHead colorInd={2} className='my-4 md:my-8'>ABOUT</OneColorHead>
                 <div className='flex w-11/12 md:flex-row items-center flex-col md:w-9/12 mx-auto' >
                     <Image src="/assets/images/website/about.jpg" alt="Startup India Registration" width={500} height={500} className="w-60 h-60 rounded-lg mb-6 md:mb-0" />

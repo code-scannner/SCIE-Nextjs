@@ -7,7 +7,7 @@ import { MdClose } from 'react-icons/md'
 export default class Header extends Component {
     headerLinks = [
         { text: "Home", link: "/" },
-        { text: "About", link: "/about" },
+        { text: "About", link: "/#about" },
         { text: "Events", link: "/events" },
         { text: "Gallery", link: "/gallery" },
         { text: "Team", link: "/team" },
@@ -39,8 +39,8 @@ export default class Header extends Component {
             <nav className={`${this.state.darkTheme ? "bg-pri-25" : ""} px-2 sm:px-4 py-3 fixed w-full z-50 transition-colors duration-500`}>
                 <div>
                     <Link href="/" className="flex items-center">
-                        <div className={`absolute top-2 ${this.state.darkTheme ? "bg-pri-10" : ""} p-2 rounded-[100%] transition-colors duration-500`}>
-                            <Image src="/assets/images/website/logo-r.png" alt="SCIE Logo" width={120} height={120} className="w-16 h-16 md:w-full md:h-full" />
+                        <div className={`absolute top-2 ${this.state.darkTheme ? "bg-pri-25" : ""} p-2 rounded-[100%] transition-colors duration-500`}>
+                            <Image src="/assets/images/website/logo-r.png" alt="SCIE Logo" width={120} height={120} className="w-20 h-16 md:w-36 md:h-32" />
                         </div>
                     </Link>
                     <div className='flex justify-end relative'>
