@@ -7,7 +7,7 @@ export default class Slide extends Component {
             <div className='w-44 h-56 sm:w-60 sm:h-64 bg-pri-25 border-2 border-solid border-pri-200 rounded-xl flex justify-center items-center'>
                 <div className='w-10/12 h-5/6 flex flex-col justify-center items-center'>
                     <div>
-                        <Image className="w-24 h-24 sm:w-32 sm:h-32 rounded-full shadow-lg ring-4 ring-offset-4 ring-offset-pri-25 ring-pri-300" src={"/assets/images/sponsors/"+pic} alt={name} width = {128} height = {128} />
+                        <Image className="w-24 h-24 sm:w-32 sm:h-32 rounded-full shadow-lg ring-4 ring-offset-4 ring-offset-pri-25 ring-pri-300" src={"./assets/images/sponsors/"+pic} alt={name} width = {128} height = {128} />
                     </div>
                     <div className='text-center my-3'>
                         <h3 className=' text-sm sm:text-base py-1 pt-3 font-medium'>{name}</h3>

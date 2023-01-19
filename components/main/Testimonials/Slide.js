@@ -14,7 +14,7 @@ export default class Slide extends Component {
                 {/* Words part ends */}
                 <div className='flex items-center gap-x-6'>
                     <div className='w-24 h-24'>
-                        <Image className='shadow-xl rounded-full' src={`/assets/images/testimonials/${pic}`} alt={name} width={100} height={100} />
+                        <Image className='shadow-xl rounded-full' src={`./assets/images/testimonials/${pic}`} alt={name} width={100} height={100} />
                     </div>
                     <div className='flex flex-col gap-y-1 text-slate-900'>
                         <h3 className='text-2xl font-bold my-1 text-pri-500'>{name}</h3>

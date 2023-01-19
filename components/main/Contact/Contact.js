@@ -20,7 +20,7 @@ export default class Contact extends Component {
                 <div className="container my-8 px-6 mx-auto">
                     <section className="mb-32 text-gray-800">
                         <div className="relative overflow-hidden h-80 rounded-xl" >
-                            <Image src="/assets/images/website/contactbg.jpeg" alt='NIT Delhi Campus' fill className='object-cover' style={{ filter: "brightness(0.7)" }} />
+                            <Image src="./assets/images/website/contactbg.jpeg" alt='NIT Delhi Campus' fill className='object-cover' style={{ filter: "brightness(0.7)" }} />
                             <div className='bg-pri-500/20 absolute inset-0' ></div>
                             <div className='bg-black/20 absolute inset-0' ></div>
                         </div>

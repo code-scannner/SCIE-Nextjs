@@ -40,7 +40,7 @@ export default class Header extends Component {
                 <div>
                     <Link href="/" className="flex items-center">
                         <div className={`absolute top-2 ${this.state.darkTheme ? "bg-pri-25" : ""} p-2 rounded-[100%] transition-colors duration-500`}>
-                            <Image src="/assets/images/website/logo-r.png" alt="SCIE Logo" width={120} height={120} className="w-20 h-16 md:w-36 md:h-32" />
+                            <Image src="./assets/images/website/logo-r.png" alt="SCIE Logo" width={120} height={120} className="w-20 h-16 md:w-36 md:h-32" />
                         </div>
                     </Link>
                     <div className='flex justify-end relative'>
