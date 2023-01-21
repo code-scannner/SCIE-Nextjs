@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import About from '../components/main/About'
+import AboutMessage from '../components/main/AboutMessage'
 import Contact from '../components/main/Contact/Contact'
+import Footer from '../components/main/Footer'
 import Hero from '../components/main/Hero'
 import Sponsors from '../components/main/Sponsors/Sponsors'
 import Testimonials from '../components/main/Testimonials/Testimonials'
+import Divider from '../components/special/divider'
 
 export default function Home() {
   return (
@@ -18,9 +21,16 @@ export default function Home() {
 
       <Hero />
       <About />
-      <Sponsors />
+      <Divider />
+      <AboutMessage />
+      <Divider />
       <Testimonials />
+      <Divider />
+      <Sponsors />
+      <Divider />
       <Contact />
+      <Divider/>
+      <Footer/>
     </>
   )
 }

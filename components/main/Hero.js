@@ -28,7 +28,7 @@ export default class Hero extends Component {
           <div className='bg-pri-1000/50 absolute inset-0 z-10'></div>
           <Image src="./assets/images/website/nitdelhibuilding.jpeg" fill alt="NIT Delhi, Admin Block"  style={{filter:"saturate(0.4)" , objectFit:'cover'}}/>
         </div>
-        <h2 className='text-white text-2xl sm:text-3xl md:text-[2.5rem] md:leading-[3.5rem] font-extrabold text-center relative z-20'>Startup Center For Innovation And Entrepreneureship<br /> NIT DELHI</h2>
+        <h2 className='text-white text-2xl sm:text-3xl md:text-[2.5rem] md:leading-[3.5rem] font-extrabold text-center relative z-20'>Startup Centre For Innovation And Entrepreneurship<br /> NIT DELHI</h2>
         <h3 className='text-white text-2xl sm:text-3xl md:text-[2.5rem] font-extrabold text-center relative z-20'>We are{" "}
           <span className='text-pri-300'>
             <Typewriter
