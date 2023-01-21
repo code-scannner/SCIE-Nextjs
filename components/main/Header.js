@@ -20,7 +20,7 @@ export default class Header extends Component {
         darkTheme: false,
     }
     toggleDarkTheme = () => {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 70) {
             this.setState({ darkTheme: true })
         }
         else {

@@ -5,6 +5,7 @@ import Button from '../utils/Button'
 import {AiFillInstagram,AiFillLinkedin} from 'react-icons/ai'
 import {BsFacebook} from 'react-icons/bs'
 import Socials from '../../data/contacts.json'
+import TopImage from '../special/TopImage'
 
 export default class Hero extends Component {
   socials = [
@@ -24,9 +25,7 @@ export default class Hero extends Component {
               </li>)}
             </ul>
           </div>
-          <div className='bg-black/30 absolute inset-0 z-20'></div>
-          <div className='bg-pri-1000/50 absolute inset-0 z-10'></div>
-          <Image src="./assets/images/website/nitdelhibuilding.jpeg" fill alt="NIT Delhi, Admin Block"  style={{filter:"saturate(0.4)" , objectFit:'cover'}}/>
+          <TopImage src = "./assets/images/website/nitdelhibuilding.jpeg" />
         </div>
         <h2 className='text-white text-2xl sm:text-3xl md:text-[2.5rem] md:leading-[3.5rem] font-extrabold text-center relative z-20'>Startup Centre For Innovation And Entrepreneurship<br /> NIT DELHI</h2>
         <h3 className='text-white text-2xl sm:text-3xl md:text-[2.5rem] font-extrabold text-center relative z-20'>We are{" "}
