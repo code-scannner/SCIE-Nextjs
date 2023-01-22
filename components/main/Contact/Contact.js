@@ -2,30 +2,24 @@ import { Component } from 'react'
 import OneColorHead from '../../typography/OneColorHead'
 import Button from '../../utils/Button'
 import { MdAlternateEmail, MdLocationPin } from 'react-icons/md'
-import { AiFillInstagram, AiFillLinkedin, AiOutlineShareAlt } from 'react-icons/ai'
+import {  AiOutlineShareAlt } from 'react-icons/ai'
 import Input from '../../utils/Input'
 import Image from 'next/image'
-import Socials from '../../../data/contacts.json'
-import { BsFacebook } from 'react-icons/bs'
+import SocialLinks from '../../special/SocialLinks'
 export default class Contact extends Component {
-    socials = [
-        { icon: <BsFacebook />, link: Socials['facebook'].link },
-        { icon: <AiFillInstagram />, link: Socials['instagram'].link },
-        { icon: <AiFillLinkedin />, link: Socials['linkedin'].link }
-    ]
     render() {
         return (
-            <div>
-                <OneColorHead colorInd={3} className="my-8">CONTACT</OneColorHead>
+            <div className='pt-12' id='contact'>
+                <OneColorHead colorInd={[3,6]} className="mb-12 mt-8">CONTACT US</OneColorHead>
                 <div className="container my-8 px-6 mx-auto">
-                    <section className="mb-32 text-gray-800">
-                        <div className="relative overflow-hidden h-80 rounded-xl -z-20" >
+                    <section className="mb-32 text-gray-900">
+                        <div className="relative overflow-hidden h-[35rem] rounded-xl -z-20" >
                             <Image src="./assets/images/website/contactbg.jpeg" alt='NIT Delhi Campus' fill className='object-cover' style={{ filter: "brightness(0.7)" }} />
                             <div className='bg-pri-500/20 absolute inset-0' ></div>
                             <div className='bg-black/20 absolute inset-0' ></div>
                         </div>
                         <div className="container text-gray-800 px-1 md:px-12">
-                            <div className="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6" style={{ marginTop: '-14rem', background: 'hsla(0, 0%, 100%, 0.8)', backdropFilter: 'blur(30px)' }}>
+                            <div className="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6" style={{ marginTop: '-33rem', background: 'hsla(0, 0%, 100%, 0.9)', backdropFilter: 'blur(30px)' }}>
                                 <div className="flex flex-wrap">
                                     <div className="grow-0 shrink-0 basis-auto w-full xl:w-5/12 px-3 lg:px-6 mb-12 xl:mb-0">
                                         <form>
@@ -94,9 +88,7 @@ export default class Contact extends Component {
                                                         <div className="text-gray-500">
                                                             <div>
                                                                 <ul className='flex space-x-5'>
-                                                                    {this.socials.map((elem, ind) => <li key={ind} className="hover:scale-105 transition-[transform,color] text-3xl text-pri-400 hover:text-pri-500 ring-2 ring-pri-200 hover:ring-pri-300 rounded-full p-1 sm:p-1.5">
-                                                                        <a href={elem.link} target="_blank" rel='noreferrer'>{elem.icon}</a>
-                                                                    </li>)}
+                                                                    <SocialLinks/>
                                                                 </ul>
                                                             </div>
                                                         </div>

@@ -1,19 +1,16 @@
 import { Component } from 'react'
-import EventTypes from '../../components/main/Events/EventTypes'
-import Divider from '../../components/special/divider'
 import TopImage from '../../components/special/TopImage'
 import MainHeading from '../../components/typography/MainHeading'
 
-export default class index extends Component {
+export default class CommingSoon extends Component {
   render() {
     return (
       <>
         <div className='h-60 relative flex justify-center items-center text-white'>
-            <MainHeading className='relative z-30 mt-20 sm:text-7xl text-6xl'>EVENTS</MainHeading>
+            <MainHeading className='relative z-30 mt-20 text-3xl sm:text-6xl md:text-7xl'>COMMING SOON</MainHeading>
             <TopImage gradient = {true} src="./assets/images/website/nitdelhibuilding.jpeg" />
         </div>
-           <EventTypes/>
-           <Divider/>
+        <div className='my-8 sm:my-48'/>
         </>
     )
   }
