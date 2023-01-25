@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Component } from 'react'
-import Divider from '../special/divider'
+import Divider from '../special/Divider'
 
 export default class AboutMessage extends Component {
     render() {

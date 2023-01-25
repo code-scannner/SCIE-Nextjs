@@ -12,7 +12,8 @@ export default class Header extends Component {
         { text: "Gallery", link: "/commingsoon" },
         { text: "Blogs", link: "/commingsoon" },
         { text: "Sponsors", link: "/#sponsors" },
-        // { text: "Our Startups", link: "/startups" },
+        { text: "Our StartUps", link: "/commingsoon" },
+        { text: "TieUps", link: "/commingsoon" },
         { text: "Team", link: "/team" },
     ]
     state = {
@@ -45,7 +46,7 @@ export default class Header extends Component {
                     </Link>
                     <div className='flex justify-end relative'>
                         <div className="flex md:order-2 items-center gap-x-4 pr-4">
-                            <Button className="mx-4 md:mx-0 tracking-normal md:tracking-wider "><Link href="/#contact">Contact Us</Link></Button>
+                            <Button className="mx-4 md:mx-0 tracking-normal md:tracking-wider "><Link href="/contact">Contact Us</Link></Button>
                             {/* Hamburger menu */}
                             <button onClick={this.toggleMenu} type="button" className="text-3xl inline-flex items-center text-pri-400 hover:text-pri-500 lg:hidden">
                                 <GiHamburgerMenu />

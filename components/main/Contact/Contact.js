@@ -10,7 +10,7 @@ export default class Contact extends Component {
     render() {
         return (
             <div className='pt-12' id='contact'>
-                <OneColorHead colorInd={[3,6]} className="mb-12 mt-8">CONTACT US</OneColorHead>
+                {this.props.heading && <OneColorHead colorInd={[3,6]} className="mb-12 mt-8">CONTACT US</OneColorHead>}
                 <div className="container my-8 px-6 mx-auto">
                     <section className="mb-32 text-gray-900">
                         <div className="relative overflow-hidden h-[35rem] rounded-xl -z-20" >

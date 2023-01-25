@@ -1,0 +1,82 @@
+[
+    {
+        "name": "ANMOL SIR",
+        "pic": "incharge/anmolsir.jpg"
+    },
+    [
+        {
+            "name": "BASU SIR",
+            "pic": "coordinators/basusir.jpg"
+        },
+        {
+            "name": "Leeladhar SIR",
+            "pic": "coordinators/leeladharsir.jpg"
+        },
+        {
+            "name": "Manoj SIR",
+            "pic": "coordinators/Manojsir.jpg"
+        },
+        {
+            "name": "Vikas SIR",
+            "pic": "coordinators/vikassir.png"
+        }
+    ],
+    [
+        {
+            "name": "Sanskar SIR",
+            "role": "General Secretary",
+            "pic": "core/sanskarjain.jpeg"
+        },
+        {
+            "name": "Saumil SIR",
+            "role": "Deputy General Secretary",
+            "pic": "core/Saumil.jpeg"
+        } 
+    ],
+    [
+        {
+            "name": "Abhinav",
+            "pic": "heads/Abhinav.jpg"
+        },
+        {
+            "name": "Chitransh",
+            "pic": "heads/chitransh.jpg"
+        }, 
+        {
+            "name": "Kabir",
+            "pic": "heads/Kabir.jpg"
+        }, 
+        {
+            "name": "Kartik",
+            "pic": "heads/kartik.png"
+        }, 
+        {
+            "name": "Nisha",
+            "pic": "heads/Nisha.jpg"
+        }, 
+        {
+            "name": "Rishabh",
+            "pic": "heads/rishabh.jpeg"
+        },
+        {
+            "name": "Rohit Kumar",
+            "pic": "heads/rohitkumar.jpg"
+        },
+        {
+            "name": "Rohit Beniwal",
+            "pic": "heads/rohitbeniwal.jpg"
+        },
+        {
+            "name": "Sagar",
+            "pic": "heads/Sagar.png"
+        },
+        {
+            "name": "Tushar",
+            "pic": "heads/Tushar.jpg"
+        },
+        {
+            "name": "Utkarsh",
+            "pic": "heads/Utkarsh.jpeg"
+        }
+    ]
+]

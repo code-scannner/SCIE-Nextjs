@@ -10,7 +10,7 @@ export default class CommingSoon extends Component {
             <MainHeading className='relative z-30 mt-20 text-3xl sm:text-6xl md:text-7xl'>COMMING SOON</MainHeading>
             <TopImage gradient = {true} src="./assets/images/website/nitdelhibuilding.jpeg" />
         </div>
-        <div className='my-8 sm:my-48'/>
+        <div className='my-4 md:my-56'/>
         </>
     )
   }

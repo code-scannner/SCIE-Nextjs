@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import EventTypes from '../../components/main/Events/EventTypes'
-import Divider from '../../components/special/divider'
+import Divider from '../../components/special/Divider'
 import TopImage from '../../components/special/TopImage'
 import MainHeading from '../../components/typography/MainHeading'
 
