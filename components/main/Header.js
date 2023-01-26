@@ -9,7 +9,7 @@ export default class Header extends Component {
         { text: "Home", link: "/" },
         { text: "About", link: "/#about" },
         { text: "Events", link: "/events" },
-        { text: "Gallery", link: "/commingsoon" },
+        { text: "Gallery", link: "/#gallery" },
         { text: "Blogs", link: "/commingsoon" },
         { text: "Sponsors", link: "/#sponsors" },
         { text: "Our StartUps", link: "/commingsoon" },
@@ -37,11 +37,11 @@ export default class Header extends Component {
     toggleMenu = () => this.setState(state => ({ ...state, menu: !state.menu }))
     render() {
         return (
-            <nav className={`${this.state.darkTheme ? "bg-pri-25" : ""} px-2 sm:px-4 py-3 fixed w-full z-50 transition-colors duration-500`}>
+            <nav className={`${this.state.darkTheme ? "bg-pri-25/80 backdrop-blur-2xl" : ""} px-2 sm:px-4 py-3 fixed w-full z-50 transition-colors duration-500`}>
                 <div>
                     <Link href="/" className="flex items-center">
-                        <div className={`absolute top-2 ${this.state.darkTheme ? "bg-pri-25" : ""} p-2 rounded-[100%] transition-colors duration-500`}>
-                            <Image src="./assets/images/website/logo-r.png" alt="SCIE Logo" width={120} height={120} className="w-20 h-16 md:w-36 md:h-32" />
+                        <div className={`absolute top-2 ${this.state.darkTheme ? "bg-white" : ""} p-2 rounded-[100%] transition-colors duration-500`}>
+                            <Image src="./assets/images/website/logo-r.png" alt="SCIE Logo" width={120} height={120} className="w-24 h-20 md:w-32 md:h-28" />
                         </div>
                     </Link>
                     <div className='flex justify-end relative'>
