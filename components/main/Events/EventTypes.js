@@ -10,10 +10,10 @@ export default class EventTypes extends Component {
     events = [
         {"name":"E-Summit",icon:<FaMountain/>,"desc":"The flagship event of E-Cell. E - Summit is a 3-day Entrepreneurial fest filled with interactive sessions, guest lecture, informal events, and workshops."},
         {"name":"Ideathon",icon:<FaLightbulb/>,"desc":"The flagship event of E-Cell. E - Summit is a 3-day Entrepreneurial fest filled with interactive sessions, guest lecture, informal events, and workshops."},
+        {"name":"Startup Expo",icon:<RxRocket/>,"desc":"The flagship event of E-Cell. E - Summit is a 3-day Entrepreneurial fest filled with interactive sessions, guest lecture, informal events, and workshops."},
         {"name":"Quizzes",icon:<HiChatAlt2/>,"desc":"The flagship event of E-Cell. E - Summit is a 3-day Entrepreneurial fest filled with interactive sessions, guest lecture, informal events, and workshops."},
         {"name":"Movie Nights",icon:<GiClapperboard/>,"desc":"The flagship event of E-Cell. E - Summit is a 3-day Entrepreneurial fest filled with interactive sessions, guest lecture, informal events, and workshops."},
-        {"name":"Trips",icon:<BiBus/>,"desc":"The flagship event of E-Cell. E - Summit is a 3-day Entrepreneurial fest filled with interactive sessions, guest lecture, informal events, and workshops."},
-        {"name":"Startup Expo",icon:<RxRocket/>,"desc":"The flagship event of E-Cell. E - Summit is a 3-day Entrepreneurial fest filled with interactive sessions, guest lecture, informal events, and workshops."}
+        {"name":"Trips",icon:<BiBus/>,"desc":"The flagship event of E-Cell. E - Summit is a 3-day Entrepreneurial fest filled with interactive sessions, guest lecture, informal events, and workshops."}
     ]
   render() {
     return (

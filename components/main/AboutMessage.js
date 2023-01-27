@@ -8,9 +8,11 @@ export default class AboutMessage extends Component {
             <>
                 {/* Directors message */}
                 <div className='container mx-auto w-11/12 md:w-9/12'>
-                    <h2 className='my-6 text-3xl font-bold ml-2 text-pri-500 uppercase text-center'>{"Director's "}<span className='text-slate-700'>Message</span></h2>
-                    <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row items-center'>
-                        <Image alt='NIT Delhi Director' src={"./assets/images/dummy/square.png"} width={300} height={300} className="w-32 h-32 sm:w-64 sm:h-64 rounded-lg sm:mr-6 mx-auto ring-2 ring-pri-500 ring-offset-2" />
+                    <h2 className='my-6 mb-12 text-4xl font-bold ml-2 text-pri-500 uppercase text-center'>{"Director's "}<span className='text-slate-700'>Message</span></h2>
+                    <div className='flex flex-col gap-y-4 md:gap-y-0 md:gap-x-4 gap-x-0 md:flex-row items-center'>
+                        <div className='sm:min-w-[20rem] ' >
+                            <Image alt='NIT Delhi Director' src="./assets/images/website/director.jpg" width={300} height={300} className="object-cover w-44 h-44 sm:w-72 sm:h-72 rounded-lg sm:mr-6 mx-auto ring-2 ring-pri-500 ring-offset-2" />
+                        </div>
                         <p className='text-base text-center md:text-left md:text-md'>Greetings and a Warm Welcome to all.
                             Start-up Center for Entrepreneurship and Innovation (SCIE), NIT Delhi, is a student organization that aims to instigate entrepreneurial spirits among students. We envision creating a domain of individuals with an entrepreneurial drive by providing a peek into the outside world. Each event contemplates a lesson, a motif of concatenating your ideas with your imagination. We help budding entrepreneurs by offering Talks and speaking sessions with affluent and inspirational entrepreneurs, pitching events etc. We also test the depth of knowledge of tech biz enthusiasts by conducting enigmatic quizzes.<br />
                             As a team, we hope to broaden the horizon of our influence and be a part of the force that drives the wave of change, entrepreneurship and innovation.<br />
@@ -22,11 +24,16 @@ export default class AboutMessage extends Component {
                 </div>
                 <Divider />
                 {/* Faculty Coordinator Message */}
-                <div className='container mx-auto w-11/12 md:w-9/12'>
-                    <h2 className='my-6 text-3xl font-bold ml-2 text-pri-500 uppercase text-center'>{"Faculty Coordinator's "}<span className='text-slate-700'>Message</span></h2>
-                    <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row-reverse items-center'>
-                        <Image alt='NIT Delhi Director' src={"./assets/images/dummy/square.png"} width={300} height={300} className="w-44 h-44 rounded-lg mx-auto sm:ml-6 ring-2 ring-pri-500 ring-offset-2" />
-                        <p className='text-base md:text-lg md:text-left text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius egestas turpis, et convallis arcu viverra finibus. Nam posuere lacinia lobortis. Morbi iaculis aliquet pellentesque. Fusce molestie eget nulla sit amet posuere. Vivamus ac sapien at eros feugiat fermentum. Nulla vulputate, arcu id volutpat venenatis.</p>
+                <div className='container mx-auto w-11/12 md:w-9/12 pb-24'>
+                    <h2 className='my-16 text-4xl font-bold ml-2 text-pri-500 uppercase text-center'>{"Faculty Coordinator's "}<span className='text-slate-700'>Message</span></h2>
+                    <div className='flex flex-col gap-y-4 md:gap-y-0 md:flex-row-reverse items-center'>
+                        <div className='sm:min-w-[20rem] ' >
+                            <Image alt='NIT Delhi Director' src={"./assets/images/team/incharge/anmolsir.jpg"} width={300} height={300} className="object-cover w-44 h-44 sm:w-72 sm:h-72 rounded-lg sm:mr-6 mx-auto ring-2 ring-pri-500 ring-offset-2" />
+                        </div>
+                        <p className='text-base md:text-xl md:text-left text-center pr-8 font-light'>
+                            As the faculty incharge of the Startup Cell of our college, I am proud to welcome you to our vibrant and dynamic community. We are committed to fostering a culture of entrepreneurship and innovation among our students, and to providing the resources, mentorship, and networking opportunities they need to succeed.<br />
+                            Here, we believe that every student has the potential to be a game changer and hence we help everyone turn their ideas into reality.
+                        </p>
                     </div>
                 </div>
             </>

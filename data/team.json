@@ -1,82 +1,114 @@
 [
     {
-        "name": "ANMOL SIR",
-        "pic": "incharge/anmolsir.jpg"
+        "name": "Dr. Anmol Ratna Saxena",
+        "pic": "incharge/anmolsir.jpg",
+        "website":"https://nitdelhi.irins.org/profile/53812"
     },
     [
         {
-            "name": "BASU SIR",
-            "pic": "coordinators/basusir.jpg"
+            "name": "Dr. Rikmantra Basu",
+            "pic": "coordinators/basusir.jpg",
+            "website":"https://nitdelhi.irins.org/profile/62649"
         },
         {
-            "name": "Leeladhar SIR",
-            "pic": "coordinators/leeladharsir.jpg"
+            "name": "Dr. Leeladhar Nagdeve",
+            "pic": "coordinators/leeladharsir.jpg",
+            "website":"https://nitdelhi.irins.org/profile/113180"
         },
         {
-            "name": "Manoj SIR",
-            "pic": "coordinators/Manojsir.jpg"
+            "name": "Dr. Manoj Kumawat",
+            "pic": "coordinators/Manojsir.jpg",
+            "website":"https://nitdelhi.irins.org/profile/112641"
         },
         {
-            "name": "Vikas SIR",
+            "name": "Vikas Bhardwaj",
             "pic": "coordinators/vikassir.png"
         }
     ],
     [
         {
-            "name": "Sanskar SIR",
+            "name": "Sanskar Jain",
             "role": "General Secretary",
-            "pic": "core/sanskarjain.jpeg"
+            "pic": "core/sanskarjain.jpeg",
+            "linkedin":"sanskarjain-"
         },
         {
-            "name": "Saumil SIR",
+            "name": "Saumil Shankar",
             "role": "Deputy General Secretary",
-            "pic": "core/Saumil.jpeg"
+            "pic": "core/Saumil.jpeg",
+            "linkedin":"saumil-shankar"
         } 
     ],
     [
         {
-            "name": "Abhinav",
-            "pic": "heads/Abhinav.jpg"
+            "name": "Rohit Beniwal",
+            "role":"Executive Member",
+            "pic": "heads/rohitbeniwal.jpg",
+            "linkedin":"rohit-beniwal-516748224"
         },
         {
-            "name": "Chitransh",
-            "pic": "heads/chitransh.jpg"
+            "name": "Abhinav Thakur",
+            "role":"Executive Member",
+            "pic": "heads/Abhinav.jpg",
+            "linkedin":"abhinav-thakur-75035a153"
+        },
+        {
+            "name": "Chitransh Chaturvedi",
+            "role":"Executive Member",
+            "pic": "heads/chitransh.jpg",
+            "linkedin":"chitransh-chaturvedi-0455a4236"
         }, 
         {
-            "name": "Kabir",
+            "name": "Kabir Singh",
+            "role":"Executive Member",
             "pic": "heads/Kabir.jpg"
         }, 
         {
-            "name": "Kartik",
-            "pic": "heads/kartik.png"
+            "name": "N Kartik Siva Ram",
+            "role":"Executive Member",
+            "pic": "heads/kartik.png",
+            "linkedin":"n-kartik-siva-ram-483073227"
         }, 
         {
-            "name": "Nisha",
-            "pic": "heads/Nisha.jpg"
+            "name": "Nisha Kumari",
+            "role":"Executive Member",
+            "pic": "heads/Nisha.jpg",
+            "linkedin":"nisha-kumari-657346248"
         }, 
         {
-            "name": "Rishabh",
+            "name": "Rishabh Jha",
+            "role":"Executive Member",
             "pic": "heads/rishabh.jpeg"
         },
         {
             "name": "Rohit Kumar",
-            "pic": "heads/rohitkumar.jpg"
+            "role":"Executive Member",
+            "pic": "heads/rohitkumar.jpg",
+            "linkedin":"rohit-kumar-20926a164"
         },
         {
-            "name": "Rohit Beniwal",
-            "pic": "heads/rohitbeniwal.jpg"
+            "name": "Ritik Tiwari",
+            "role":"Executive Member",
+            "pic": "heads/Ritik.jpeg",
+            "linkedin":"ritik-tiwari-a9237222b"
         },
         {
-            "name": "Sagar",
-            "pic": "heads/Sagar.png"
+            "name": "S. Tushar Ranjan Patro",
+            "role":"Executive Member",
+            "pic": "heads/Tushar.jpg",
+            "linkedin":"s-tushar-ranjan-patro-a21954227"
         },
         {
-            "name": "Tushar",
-            "pic": "heads/Tushar.jpg"
+            "name": "Utkarsh Gupta",
+            "role":"Executive Member",
+            "pic": "heads/Utkarsh.jpeg",
+            "linkedin":"utkarsh-gupta-4009ab223/"
         },
         {
-            "name": "Utkarsh",
-            "pic": "heads/Utkarsh.jpeg"
+            "name": "Arshita Sonker",
+            "role":"Executive Member",
+            "pic": "heads/Arshita.jpg",
+            "linkedin":"arshita-sonker-81b253230"
         }
     ]
 ]

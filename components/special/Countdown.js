@@ -82,22 +82,22 @@ export default class Timer extends React.Component {
 
     return (
       <div>
-        <div className="flex gap-x-8 justify-center text-white mx-auto p-4">
+        <div className="flex gap-x-4 sm:gap-x-8 justify-center text-white mx-auto p-4">
           <div>
-              <div className="p-0.5 text-4xl text-center">{convertedDays}</div>
-              <div className="text-center text-sm">Days</div>
+              <div className="tracking-widest p-0.5 text-xl sm:text-4xl text-center">{convertedDays}</div>
+              <div className="text-center text-[0.7rem]">Days</div>
           </div>
           <div>
-          <div className="p-0.5 text-4xl text-center">{convertedHours}</div>
-          <div className="text-center text-sm">Hours</div>
+          <div className="tracking-widest p-0.5 text-xl sm:text-4xl text-center">{convertedHours}</div>
+          <div className="text-center text-[0.7rem]">Hours</div>
           </div>
           <div>
-              <div className="p-0.5 text-4xl text-center">{convertedMins}</div>
-              <div className="text-center text-sm">Minutes</div>
+              <div className="tracking-widest p-0.5 text-xl sm:text-4xl text-center">{convertedMins}</div>
+              <div className="text-center text-[0.7rem]">Minutes</div>
           </div>
           <div>
-              <div className="p-0.5 text-4xl text-center">{convertedSeconds}</div>
-              <div className="text-center text-sm">Seconds</div>
+              <div className="tracking-widest p-0.5 text-xl sm:text-4xl text-center">{convertedSeconds}</div>
+              <div className="text-center text-[0.7rem]">Seconds</div>
           </div>
       </div>
       </div>

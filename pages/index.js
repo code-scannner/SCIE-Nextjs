@@ -7,7 +7,6 @@ import Sponsors from '../components/main/Sponsors/Sponsors'
 import Testimonials from '../components/main/Testimonials/Testimonials'
 import Divider from '../components/special/Divider'
 import Gallery from '../components/main/Gallery/Gallery'
-import StickySocials from '../components/main/Contact/StickySocials'
 
 export default function Home() {
   return (
@@ -20,7 +19,6 @@ export default function Home() {
         <meta name="description" content="SCIE NIT Delhi" />
       </Head>
       <Hero />
-      <StickySocials/>
       <About />
       <Divider />
       <AboutMessage />

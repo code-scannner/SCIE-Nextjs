@@ -10,10 +10,10 @@ export default class Header extends Component {
         { text: "About", link: "/#about" },
         { text: "Events", link: "/events" },
         { text: "Gallery", link: "/#gallery" },
-        { text: "Blogs", link: "/commingsoon" },
+        // { text: "Blogs", link: "/commingsoon" },
         { text: "Sponsors", link: "/#sponsors" },
-        { text: "Our StartUps", link: "/commingsoon" },
-        { text: "TieUps", link: "/commingsoon" },
+        // { text: "Our StartUps", link: "/commingsoon" },
+        // { text: "TieUps", link: "/commingsoon" },
         { text: "Team", link: "/team" },
     ]
     state = {
@@ -37,7 +37,7 @@ export default class Header extends Component {
     toggleMenu = () => this.setState(state => ({ ...state, menu: !state.menu }))
     render() {
         return (
-            <nav className={`${this.state.darkTheme ? "bg-pri-25/80 backdrop-blur-2xl" : ""} px-2 sm:px-4 py-3 fixed w-full z-50 transition-colors duration-500`}>
+            <nav className={`${this.state.darkTheme ? "bg-pri-50/80 backdrop-blur-2xl" : ""} px-2 sm:px-4 py-3 fixed w-full z-50 transition-colors duration-500`}>
                 <div>
                     <Link href="/" className="flex items-center">
                         <div className={`absolute top-2 ${this.state.darkTheme ? "bg-white" : ""} p-2 rounded-[100%] transition-colors duration-500`}>

@@ -10,6 +10,7 @@ export default class Slider extends Component {
                     interval={3000}
                     showThumbs={false}
                     infiniteLoop={true}
+                    
                     swipeable={true}
                     // TODO use custom arrows
                     showStatus={false}

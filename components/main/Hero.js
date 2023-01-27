@@ -14,7 +14,7 @@ export default class Hero extends Component {
           {/* social icons from here */}
           <TopImage src="./assets/images/website/nitdelhibuilding.jpeg" />
         </div>
-        <h2 className='pt-0 sm:pt-28 text-white text-2xl sm:text-3xl md:text-[2.5rem] md:leading-[3.5rem] font-extrabold text-center relative z-20'>Startup Centre For Innovation And Entrepreneurship<br /> NIT DELHI</h2>
+        <h2 className='pt-28 text-white text-2xl sm:text-3xl md:text-[2.5rem] md:leading-[3.5rem] font-extrabold text-center relative z-20'>Startup Centre For Innovation And Entrepreneurship<br /> NIT DELHI</h2>
         <h3 className='text-white text-2xl sm:text-3xl md:text-[2.5rem] font-extrabold text-center relative z-20'>We are{" "}
           <span className='text-pri-300'>
             <Typewriter
@@ -29,7 +29,7 @@ export default class Hero extends Component {
           </span>
         </h3>
         <section className='z-30 flex flex-col items-center'>
-          <Image className='rounded-md ring-2 ring-white hover:opacity-90 transition-opacity' src={"assets/images/latestevent/latestevent.gif"} alt={"Beats NIT Delhi Event"} width={280} height={280} />
+          <Image className='rounded-md ring-2 ring-white' src={"assets/images/latestevent/latestevent.gif"} alt={"Beats NIT Delhi Event"} width={280} height={280} />
           {/* countdown */}
           <span>
             <Countdown

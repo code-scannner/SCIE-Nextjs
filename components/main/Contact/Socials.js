@@ -4,7 +4,9 @@ import { AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import { BsFacebook } from 'react-icons/bs'
 export default class Socials extends Component {
     socials = [
-        { icon: <BsFacebook />, link: SocialLinks['facebook'].link },
+        {
+            icon:<BsFacebook/> , link: SocialLinks['facebook'].link
+        },
         { icon: <AiFillInstagram />, link: SocialLinks['instagram'].link },
         { icon: <AiFillLinkedin />, link: SocialLinks['linkedin'].link }
     ]
@@ -18,3 +20,5 @@ export default class Socials extends Component {
         )
     }
 }
+
+

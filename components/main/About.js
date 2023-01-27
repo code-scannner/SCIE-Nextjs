@@ -10,7 +10,7 @@ export default class About extends Component {
     ]
     render() {
         return (
-            <div className='mb-12 pt-24' id='about'>
+            <div className='mb-12 pt-8 sm:pt-24' id='about'>
                 <span><OneColorHead colorInd={[8, 9, 10, 11]} className='my-4 md:my-8'>What is SCIE?</OneColorHead></span>
                 <div className='w-11/12 md:w-9/12 mx-auto flex flex-col items-center' >
                     <div className='px-6 font-medium'>
