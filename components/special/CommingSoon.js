@@ -6,11 +6,10 @@ export default class CommingSoon extends Component {
   render() {
     return (
       <>
-        <div className='h-60 relative flex justify-center items-center text-white'>
-            <MainHeading className='relative z-30 mt-20 text-3xl sm:text-6xl md:text-7xl'>COMMING SOON</MainHeading>
-            <TopImage gradient = {true} src="./assets/images/website/nitdelhibuilding.jpeg" />
+        <div className='h-screen relative flex justify-center items-center text-white'>
+            <MainHeading className='relative z-30 w-11/12 mx-auto text-center mt-20 text-5xl sm:text-7xl md:text-8xl'>COMING SOON</MainHeading>
+            <TopImage src="./assets/images/website/nitdelhibuilding.jpeg" />
         </div>
-        <div className='my-4 md:my-56'/>
         </>
     )
   }

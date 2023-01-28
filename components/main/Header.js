@@ -61,7 +61,7 @@ export default class Header extends Component {
                                     <span className='tracking-widest text-xl pl-2 font-bold text-pri-10' >SCIE</span>
                                     <MdClose className='cursor-pointer text-pri-10 hover:text-pri-100 transition-colors' onClick={this.toggleMenu} />
                                 </li>
-                                {this.headerLinks.map(elem => <li key={elem.text} className="border border-transparent lg:border-none border-y-2 border-x-0 py-2 hover:border-pri-300/20 transition-[border-color]">
+                                {this.headerLinks.map(elem => <li key={elem.text} onClick={this.toggleMenu} className="border border-transparent lg:border-none border-y-2 border-x-0 py-2 hover:border-pri-300/20 transition-[border-color]">
                                     <Link href={elem.link} className={`block text-pri-200 ${this.state.darkTheme?"lg:hover:text-pri-500 lg:text-slate-700":"lg:hover:text-pri-200 lg:text-white"} rounded hover:text-white px-2 tracking-wide text-base transition-colors`}>{elem.text}</Link>
                                 </li>)}
                             </ul>

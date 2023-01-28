@@ -49,7 +49,7 @@ function Heading({ text }) {
 
 function Groups({ members,size }) {
     return (
-        <div className='mx-auto mb-4 flex flex-wrap justify-center items-baseline gap-x-8 gap-y-6'>
+        <div className='mx-auto mb-4 flex flex-wrap justify-center items-start gap-x-8 gap-y-8'>
             {members.map((elem, ind) => <TeamCard key={ind} {...elem} size={size} />
             )}
         </div>

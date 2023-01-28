@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import About from '../components/main/About'
 import AboutMessage from '../components/main/AboutMessage'
-import Contact from '../components/main/Contact/Contact'
 import Hero from '../components/main/Hero'
 import Sponsors from '../components/main/Sponsors/Sponsors'
 import Testimonials from '../components/main/Testimonials/Testimonials'
@@ -28,9 +27,6 @@ export default function Home() {
       <Testimonials />
       <Divider marginBottom={0} />
       <Sponsors />
-      <Divider marginBottom={0} />
-      <Contact heading={true} />
-      <Divider />
     </>
   )
 }

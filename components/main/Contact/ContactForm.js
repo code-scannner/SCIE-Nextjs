@@ -6,11 +6,11 @@ import {  AiOutlineShareAlt } from 'react-icons/ai'
 import Input from '../../utils/Input'
 import Image from 'next/image'
 import SocialLinks from '../../special/SocialLinks'
-export default class Contact extends Component {
+export default class ContactForm extends Component {
     render() {
         return (
             <div className='pt-12' id='contact'>
-                {this.props.heading && <OneColorHead colorInd={[3,6]} className="mb-12 mt-8">CONTACT US</OneColorHead>}
+                <OneColorHead colorInd={[3,6]} className="mb-12 mt-8">CONTACT US</OneColorHead>
                 <div className="container my-8 px-6 mx-auto">
                     <section className="mb-32 text-gray-900">
                         <div className="relative overflow-hidden h-[35rem] rounded-xl -z-20" >
