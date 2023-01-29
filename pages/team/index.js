@@ -10,7 +10,7 @@ export default class index extends Component {
             <>
                 <div className='h-72 relative flex justify-center items-center text-white'>
                     <MainHeading className='relative z-30 mt-16 md:text-8xl text-4xl' subheading="GET TO KNOW THE TEAM">THE TEAM</MainHeading>
-                    <TopImage gradient={true} src="./assets/images/website/nitdelhibuilding.jpeg" />
+                    <TopImage gradient={true} src="./assets/images/backgrounds/team.jpg" />
                 </div>
                 <main className='w-11/12 flex flex-col space-y-12 sm:w-10/12 mx-auto my-8'>
                     <div>

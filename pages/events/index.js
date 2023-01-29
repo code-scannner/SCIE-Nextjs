@@ -10,7 +10,7 @@ export default class index extends Component {
       <>
         <div className='h-60 relative flex justify-center items-center text-white'>
             <MainHeading className='relative z-30 mt-20 sm:text-7xl text-6xl'>EVENTS</MainHeading>
-            <TopImage gradient = {true} src="./assets/images/website/nitdelhibuilding.jpeg" />
+            <TopImage gradient = {true} src="./assets/images/backgrounds/events.jpg" />
         </div>
            <EventTypes/>
            <Divider/>

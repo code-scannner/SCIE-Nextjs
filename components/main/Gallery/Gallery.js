@@ -3,6 +3,7 @@ import OneColorHead from '../../typography/OneColorHead'
 import Slider from './Slider'
 
 export default class Gallery extends Component {
+    
     render() {
         return (
             <div id="gallery" className='pt-24 sm:pt-28'>

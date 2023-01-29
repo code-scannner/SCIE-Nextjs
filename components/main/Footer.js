@@ -88,9 +88,9 @@ export default class Footer extends Component {
                             <Link href='/' className='hover:text-pri-200 font-semibold' >SCIE NITD</Link>
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <span className='text-pri-10 my-12 text-sm sm:text-base'>Made with <AiFillHeart className='text-[#f5503d] stroke-white stroke-[3rem] text-lg inline' /> By <Link target="_blank" href='https://www.linkedin.com/in/shreyansh-gupta-68876b232/' className='text-pri-100 hover:text-white underline-offset-2 underline' >Shreyansh Gupta</Link></span>
-                    </div>
+                    </div> */}
 
                 </div>
             </footer>
