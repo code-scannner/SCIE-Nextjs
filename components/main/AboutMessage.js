@@ -8,7 +8,7 @@ export default class AboutMessage extends Component {
             <>
                 {/* Directors message */}
                 <div className='container mx-auto w-11/12 md:w-9/12'>
-                    <h2 className='my-6 mb-12 text-4xl font-bold ml-2 text-pri-500 uppercase text-center'>{"Director's "}<span className='text-slate-700'>Message</span></h2>
+                    <h2 className='my-6 mb-12 sm:text-4xl text-3xl font-bold ml-2 text-pri-500 uppercase text-center'>{"Director's "}<span className='text-slate-700'>Message</span></h2>
                     <div className='flex flex-col gap-y-4 md:gap-y-0 md:gap-x-4 gap-x-0 md:flex-row items-center'>
                         <div className='sm:min-w-[20rem] ' >
                             <Image alt='NIT Delhi Director' src="./assets/images/website/director.jpg" width={300} height={300} className="object-cover w-44 h-44 sm:w-72 sm:h-72 rounded-lg sm:mr-6 mx-auto ring-2 ring-pri-500 ring-offset-2" />
@@ -25,7 +25,7 @@ export default class AboutMessage extends Component {
                 <Divider />
                 {/* Faculty Coordinator Message */}
                 <div className='container mx-auto w-11/12 md:w-9/12 pb-24'>
-                    <h2 className='my-16 text-4xl font-bold ml-2 text-pri-500 uppercase text-center'>{"Faculty Coordinator's "}<span className='text-slate-700'>Message</span></h2>
+                    <h2 className='my-16 sm:text-4xl text-3xl font-bold ml-2 text-pri-500 uppercase text-center'>{"Faculty Coordinator's "}<span className='text-slate-700'>Message</span></h2>
                     <div className='flex flex-col gap-y-4 md:gap-y-0 md:flex-row-reverse items-center'>
                         <div className='sm:min-w-[20rem] ' >
                             <Image alt='NIT Delhi Director' src={"./assets/images/team/incharge/anmolsir.jpg"} width={300} height={300} className="object-cover w-44 h-44 sm:w-72 sm:h-72 rounded-lg sm:mr-6 mx-auto ring-2 ring-pri-500 ring-offset-2" />
