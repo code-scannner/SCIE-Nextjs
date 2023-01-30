@@ -8,7 +8,7 @@ export default class Socials extends Component {
         },
         { icon: <Image alt="scie instagram" src="assets/images/website/instagram.svg" width={30} height={30} />, link: SocialLinks['instagram'].link },
         { icon: <Image alt="scie linkedin" src="assets/images/website/linkedin.svg" width={30} height={30} />, link: SocialLinks['linkedin'].link },
-        { icon: <Image alt="scie youtube" src="assets/images/website/youtube.svg" width={30} height={30} />, link: SocialLinks['youtube'].link },
+        // { icon: <Image alt="scie youtube" src="assets/images/website/youtube.svg" width={30} height={30} />, link: SocialLinks['youtube'].link },
     ]
     render() {
         return (
