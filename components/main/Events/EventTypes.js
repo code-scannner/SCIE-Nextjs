@@ -13,7 +13,7 @@ export default class EventTypes extends Component {
         {"name":"Startup Expo",icon:<RxRocket/>,"desc":"Initiative of SCIE for entrepreneurs to stand on this platform & showcase the environment their problem solving business"},
         {"name":"Quizzes",icon:<HiChatAlt2/>,"desc":"Its main objective will be to develop in students the ability to think beyond academics, build business-related mindsets and test their knowledge about the latest happenings in the startup world."},
         {"name":"Movie Nights",icon:<GiClapperboard/>,"desc":"SCIE organises movie nights where we screen films featuring enterpreneurial themes related to innovation, startups and enterpreneurship.This will allow students to learn and explore different aspects of entrepreneurship and innovation in an engaging and entertaining way"},
-        {"name":"Trips",icon:<BiBus/>,"desc":"Explore new destinations and create unforgettable memories with Startup Centre For Innovation and Entrepreneurship (SCIE). Experience local culture, breathtaking landscapes, and unique opportunities for adventure and relaxation"}
+        {"name":"Excursions",icon:<BiBus/>,"desc":"Explore new destinations and create unforgettable memories with Startup Centre For Innovation and Entrepreneurship (SCIE). Experience local culture, breathtaking landscapes, and unique opportunities for adventure and relaxation"}
     ]
   render() {
     return (

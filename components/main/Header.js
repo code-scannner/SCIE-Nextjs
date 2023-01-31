@@ -10,10 +10,11 @@ export default class Header extends Component {
         { text: "About", link: "/#about" },
         { text: "Events", link: "/events" },
         { text: "Gallery", link: "/#gallery" },
-        // { text: "Blogs", link: "/commingsoon" },
+        { text: "Blogs", link: "/commingsoon" },
         { text: "Sponsors", link: "/#sponsors" },
-        // { text: "Our StartUps", link: "/commingsoon" },
-        // { text: "TieUps", link: "/commingsoon" },
+        { text: "Incubated StartUps", link: "/commingsoon" },
+        { text: "Incubation Facilties", link: "/commingsoon" },
+        { text: "TieUps", link: "/commingsoon" },
         { text: "Team", link: "/team" },
     ]
     state = {

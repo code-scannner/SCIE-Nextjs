@@ -29,7 +29,7 @@ export default class index extends Component {
                             <div className='w-1/2 flex gap-y-6 flex-col justify-center items-center'>
                                 <BsFillTelephoneFill className='inline text-4xl text-pri-400' />
                                 <span>
-                                    123-456-789
+                                    011-3386-1183
                                 </span>
                             </div>
                             <div className='w-1/2 flex gap-y-6 flex-col justify-center items-center'>
