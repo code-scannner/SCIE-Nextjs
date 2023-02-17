@@ -14,7 +14,7 @@ export default class Header extends Component {
         { text: "Sponsors", link: "/#sponsors" },
         { text: "Incubated StartUps", link: "/commingsoon" },
         { text: "Incubation Facilties", link: "/commingsoon" },
-        { text: "TieUps", link: "/commingsoon" },
+        { text: "TieUps", link: "/tieups" },
         { text: "Team", link: "/team" },
     ]
     state = {

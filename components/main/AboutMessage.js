@@ -30,11 +30,11 @@ export default class AboutMessage extends Component {
                     <div className='flex flex-col gap-y-4 md:gap-y-0 md:flex-row-reverse items-center'>
                         <div className='sm:min-w-[20rem] ' >
                             <Image alt='NIT Delhi Director' src={"./assets/images/team/incharge/anmolsir.jpg"} width={300} height={300} className="object-cover w-44 h-44 sm:w-72 sm:h-72 rounded-lg sm:mr-6 mx-auto ring-2 ring-pri-500 ring-offset-2" />
-                            <br/><p className="text-center"><strong>Dr. Anmol Ratan Saxena</strong></p>
+                            <br/><p className="text-center"><strong>Dr. Anmol Ratna Saxena</strong></p>
                         </div>
                         <p className='text-base md:text-xl md:text-left text-center pr-8 font-light'>
                             As the faculty incharge of the Startup Cell of our college, I am proud to welcome you to our vibrant and dynamic community. We are committed to fostering a culture of entrepreneurship and innovation among our students, and to providing the resources, mentorship, and networking opportunities they need to succeed.<br />
-                            Here, we believe that every student has the potential to be a game changer and hence we help everyone turn their ideas into reality.<br/><br/>Good Wishes!<br/>Dr. Anmol Ratan Saxena<br/>
+                            Here, we believe that every student has the potential to be a game changer and hence we help everyone turn their ideas into reality.<br/><br/>Good Wishes!<br/>Dr. Anmol Ratna Saxena<br/>
                         </p>
                     </div>
                 </div>
