@@ -25,7 +25,8 @@ export default class index extends Component {
       <img className="rounded-t-lg" src="https://images.indianexpress.com/2022/08/IIT-Patna.jpg" alt=""/>
     </a>
     <div className="p-6">
-      <h5 className="text-gray-900 text-xl font-medium mb-2">Technology Innovation Hub , IIT Patna</h5>
+      <h5 className="text-gray-900 text-xl font-medium mb-2">Technology Innovation Hub</h5>
+      <h5 className="text-gray-900 text-lg font-medium mb-2">IIT Patna</h5>
       <p className="text-gray-700 text-base mb-4">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
               alias veritatis adipisci, error, doloremque, aspernatur laudantium
@@ -44,7 +45,8 @@ export default class index extends Component {
       <img className="rounded-t-lg" src="https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2020/07/11133801/maxresdefault2.jpg" alt=""/>
     </a>
     <div className="p-6">
-      <h5 className="text-gray-900 text-xl font-medium mb-2">Technology Innovation Hub , IIT Ropar</h5>
+      <h5 className="text-gray-900 text-xl font-medium mb-2">Technology Innovation Hub</h5>
+      <h5 className="text-gray-900 text-lg font-medium mb-2">IIT Ropar</h5>
       <p className="text-gray-700 text-base mb-4">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
               alias veritatis adipisci, error, doloremque, aspernatur laudantium
@@ -60,10 +62,11 @@ export default class index extends Component {
 <div className="flex text-center mx-8">
   <div className="rounded-lg shadow-lg bg-white max-w-sm">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-      <img className="rounded-t-lg" src="https://home.iitd.ac.in/public/storage/uploads/MedicFibers-Group-Photo_1657169006.jpg" alt=""/>
+      <img className="rounded-t-lg h-56 mx-auto" src="https://home.iitd.ac.in/public/storage/uploads/MedicFibers-Group-Photo_1657169006.jpg" alt=""/>
     </a>
     <div className="p-6">
-      <h5 className="text-gray-900 text-xl font-medium mb-2">AIC , IIT Delhi</h5>
+      <h5 className="text-gray-900 text-xl font-medium mb-2">Atal Incubation Center</h5>
+      <h5 className="text-gray-900 text-lg font-medium mb-2">IIT Delhi</h5>
       <p className="text-gray-700 text-base mb-4">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
               alias veritatis adipisci, error, doloremque, aspernatur laudantium
