@@ -8,11 +8,11 @@ import OutlineButton from '../../utils/OulineButton'
 import Link from 'next/link'
 export default class EventTypes extends Component {
     events = [
-        {"name":"E-Summit",icon:<FaMountain/>,"desc":"E-summit is the flagship event organized annually by Startup Centre for Innovation and Entrepreneurship (SCIE). It is an entrepreneurial event comprising exciting quizzes, pitching competitions, workshops, interactive sessions, and talk shows along with various cultural and musical shows."},
+        {"name":"E-gnite",icon:<FaMountain/>,"desc":"E-summit is the flagship event organized annually by Startup Centre for Innovation and Entrepreneurship (SCIE). It is an entrepreneurial event comprising exciting quizzes, pitching competitions, workshops, interactive sessions, and talk shows along with various cultural and musical shows."},
         {"name":"Ideathon",icon:<FaLightbulb/>,"desc":"To open and develop the new dimensions of critical and analytical thinking skills of future entrepreneurs, SCIE conducts Ideathons at regular intervals to motivate the young minds to always explore business solutions to any problems and to create a startup-related environment in the campus."},
-        {"name":"Startup Expo",icon:<RxRocket/>,"desc":"Initiative of SCIE for entrepreneurs to stand on this platform & showcase the environment their problem solving business"},
+        // {"name":"Startup Expo",icon:<RxRocket/>,"desc":"Initiative of SCIE for entrepreneurs to stand on this platform & showcase the environment their problem solving business"},
         {"name":"Quizzes",icon:<HiChatAlt2/>,"desc":"Its main objective will be to develop in students the ability to think beyond academics, build business-related mindsets and test their knowledge about the latest happenings in the startup world."},
-        {"name":"Movie Nights",icon:<GiClapperboard/>,"desc":"SCIE organises movie nights where we screen films featuring enterpreneurial themes related to innovation, startups and enterpreneurship.This will allow students to learn and explore different aspects of entrepreneurship and innovation in an engaging and entertaining way"},
+        {"name":"Movie Screenings",icon:<GiClapperboard/>,"desc":"SCIE organises movie nights where we screen films featuring enterpreneurial themes related to innovation, startups and enterpreneurship.This will allow students to learn and explore different aspects of entrepreneurship and innovation in an engaging and entertaining way"},
         {"name":"Excursions",icon:<BiBus/>,"desc":"Explore new destinations and create unforgettable memories with Startup Centre For Innovation and Entrepreneurship (SCIE). Experience local culture, breathtaking landscapes, and unique opportunities for adventure and relaxation"}
     ]
   render() {
