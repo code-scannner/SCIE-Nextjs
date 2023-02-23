@@ -31,7 +31,7 @@ export default class index extends Component {
                         <Divider />
                     </div>
                     <div>
-                        <Heading text="TEAM HEADS" />
+                        <Heading text="EXECUTIVE MEMBERS" />
                         <Groups members={Team[3]} />
                         <Divider />
                     </div>

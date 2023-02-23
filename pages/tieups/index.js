@@ -15,15 +15,15 @@ export default class index extends Component {
           </MainHeading>
           <TopImage
             gradient={true}
-            gradientHeight="7rem"
-            src="./assets/images/website/tieuppage.jpg"
+            gradientHeight="5rem"
+            src="https://images.unsplash.com/photo-1637094410849-96576479b731?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGNvbGxhYm9yYXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
             imgStyle={{ filter: "saturate(1)" }}
           />
         </div>
-        <div className='grid grid-cols-3 ml-20'>
+        <div className='grid lg:grid-cols-3 grid-cols-1 ml-20'>
           <Card heading="Technology Innovation Hub " heading2="IIT Patna" src="https://images.indianexpress.com/2022/08/IIT-Patna.jpg"/>
           <Card heading="Technology Innovation Hub " heading2="IIT Ropar" src="https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2020/07/11133801/maxresdefault2.jpg"/>
-          <Card heading="Atal Incubation Center " heading2="IIT Delhi" src="https://home.iitd.ac.in/public/storage/uploads/MedicFibers-Group-Photo_1657169006.jpg"/>
+          <Card heading="Atal Incubation Center " heading2="IIT Delhi" src="https://images.hindustantimes.com/img/2021/11/13/1600x900/_557208d8-055b-11eb-9a15-404ea3939013_1636792437702.png"/>
         </div>
       </div>
     );

@@ -12,7 +12,7 @@ export default class AboutMessage extends Component {
                     <div className='flex flex-col gap-y-4 md:gap-y-0 md:gap-x-4 gap-x-0 md:flex-row items-center'>
                         <div className='sm:min-w-[20rem] ' >
                             <Image alt='NIT Delhi Director' src="./assets/images/website/director.jpg" width={300} height={300} className="object-cover w-44 h-44 sm:w-72 sm:h-72 rounded-lg sm:mr-6 mx-auto ring-2 ring-pri-500 ring-offset-2" />
-                            <br/><p className="text-center"><strong>Prof. Ajay K Sharma</strong></p>
+                            <br/><p className="text-center"><strong>Prof. (Dr.) Ajay K Sharma</strong></p>
                         </div>
                         <p className='text-base text-center md:text-left md:text-md'>Greetings and a Warm Welcome to all.
                             Start-up Center for Entrepreneurship and Innovation (SCIE), NIT Delhi, is an entity that aims to instigate entrepreneurial spirits among students. We envision creating a domain of individuals with an entrepreneurial drive by providing a peek into the outside world. Each event contemplates a lesson, a motif of concatenating your ideas with your imagination. We help budding entrepreneurs by offering talks and speaking sessions with affluent and inspirational entrepreneurs, pitching events etc. We also test the depth of knowledge of tech biz enthusiasts by conducting enigmatic quizzes.<br />
@@ -20,7 +20,7 @@ export default class AboutMessage extends Component {
                             Being part of an institute of national importance, we consider sparking innovation, drive and courage in young minds along with guiding them towards the path of perfection our duty. SCIE aims to do that through its activities.<br />
                             Good Luck and Good Wishes!<br />
                             Jai Hind Jai Bharat!!<br />
-                            Prof. Ajay K Sharma</p>
+                            Prof. (Dr.) Ajay K Sharma</p>
                     </div>
                 </div>
                 <Divider />

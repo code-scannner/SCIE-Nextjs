@@ -22,18 +22,18 @@ export default class ContactForm extends Component {
                             <div className="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6" style={{ marginTop: '-33rem', background: 'hsla(0, 0%, 100%, 0.9)', backdropFilter: 'blur(30px)' }}>
                                 <div className="flex flex-wrap">
                                     <div className="grow-0 shrink-0 basis-auto w-full xl:w-5/12 px-3 lg:px-6 mb-12 xl:mb-0">
-                                        <form>
+                                        <form action="mailto:scie@nitdelhi.ac.in" method="post">
                                             <div className="mb-6">
-                                                <Input type='input' className="rounded sm:rounded-md">Name</Input>
+                                                <Input type='input' name="name" className="rounded sm:rounded-md">Name</Input>
                                             </div>
                                             <div className="mb-6">
-                                                <Input type='input' className="rounded sm:rounded-md">Email</Input>
+                                                <Input type='input' name="email" className="rounded sm:rounded-md">Email</Input>
                                             </div>
                                             <div className="mb-6">
-                                                <Input type='input' className="rounded sm:rounded-md">Phone</Input>
+                                                <Input type='input' name="phone" className="rounded sm:rounded-md">Phone</Input>
                                             </div>
                                             <div className="mb-6">
-                                                <Input type='textarea' className="rounded sm:rounded-md">Message</Input>
+                                                <Input type='textarea' name="message" className="rounded sm:rounded-md">Message</Input>
                                             </div>
                                             <Button className='tracking-widest w-full'>SUBMIT</Button>
                                         </form>
@@ -52,7 +52,7 @@ export default class ContactForm extends Component {
                                                             Address
                                                         </p>
                                                         <p className="text-gray-600">
-                                                            National Institute of Technology Delhi, Plot No. FA7,Zone P1, GT Karnal Road, Delhi, 110036
+                                                            National Institute of Technology Delhi,<br /> Plot No. FA7,Zone P1, GT Karnal Road,<br /> Delhi, 110036
                                                         </p>
                                                     </div>
                                                 </div>

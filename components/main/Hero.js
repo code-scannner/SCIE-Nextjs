@@ -28,15 +28,15 @@ export default class Hero extends Component {
             />
           </span>
         </h3>
-        <section className='z-30 flex flex-col items-center'>
+        {/* <section className='z-30 flex flex-col items-center'>
           <Image className='rounded-md ring-2 ring-white' src={"assets/images/latestevent/latestevent.gif"} alt={"Beats NIT Delhi Event"} width={280} height={280} />
-          {/* countdown */}
-          {/* <span>
+          countdown
+          <span>
             <Countdown
             endDate = {new Date(2023,1,9)}
             />
-          </span> */}
-        </section>
+          </span>
+        </section> */}
 
       </div>
     )

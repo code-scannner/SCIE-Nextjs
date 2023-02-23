@@ -23,7 +23,7 @@ export default class index extends Component {
                         </div>
                         <div className='text-lg font-semibold text-stone-700'>Dr Anmol Ratna Saxena</div>
                         <div>Faculty Incharge, Startup Centre For Innovation And Entrepreneurship</div>
-                        <div className='my-2 text-pri-600 font-semibold'>scie@nitdelhi.ac.in</div>
+                        <div className='my-2 text-pri-600 font-semibold'>startup@nitdelhi.ac.in</div>
                         <div className='flex'>
 
                             <div className='w-1/2 flex gap-y-6 flex-col justify-center items-center'>
@@ -37,7 +37,6 @@ export default class index extends Component {
                                 <p>
                                     National Institute of Technology
                                     Plot No. FA7,Zone P1,
-                                    Chandra Hospital
                                     GT Karnal Road, Delhi-110036
                                 </p>
                             </div>
