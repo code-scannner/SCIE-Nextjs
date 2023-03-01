@@ -2,8 +2,8 @@ import { Component } from 'react'
 import Slide from './Slide'
 import { Carousel } from "react-responsive-carousel"
 import { BiLeftArrow, BiRightArrow } from 'react-icons/bi'
+import GImages from '../../../data/gallery.json'
 export default class Slider extends Component {
-    photos = Array(20).fill(1).map((elem, ind) => `${ind+1}.jpg`)
     state = {
         slideper: 0,
         currentImageIndex: 0,
@@ -46,14 +46,14 @@ export default class Slider extends Component {
                     transitionTime={700}
                 >
                     {
-                        this.photos.map((elem, ind) => <Slide key={ind} src={elem} />)
+                        GImages.map((elem) => <Slide key={elem.id} id={elem.id} />)
                     }
                 </Carousel>
                 <div className="flex justify-center space-x-4 my-12" >
                     <button onClick={this.prev} disabled={currentImageIndex == 0} className="bg-gray-400 hover:bg-gray-500/80 transition-colors disabled:opacity-70 disabled:hover:bg-gray-400 p-3 rounded-full text-xl text-white">
                         <BiLeftArrow />
                     </button>
-                    <button onClick={this.next} disabled={currentImageIndex == 19} className="bg-gray-400 hover:bg-gray-500/80 transition-colors disabled:opacity-70 disabled:hover:bg-gray-400 p-3 rounded-full text-xl text-white">
+                    <button onClick={this.next} disabled={currentImageIndex == GImages.length - 1 } className="bg-gray-400 hover:bg-gray-500/80 transition-colors disabled:opacity-70 disabled:hover:bg-gray-400 p-3 rounded-full text-xl text-white">
                         <BiRightArrow />
                     </button>
                 </div>

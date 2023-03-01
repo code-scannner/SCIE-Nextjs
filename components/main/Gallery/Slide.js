@@ -8,7 +8,7 @@ export default class Slide extends Component {
         <Image
          className='object-contain z-30'
          alt={"NIT Delhi SCIE Events"}
-         src={"./assets/images/gallery/events/"+this.props.src}
+         src={`http://drive.google.com/uc?export=view&id=${this.props.id}&authuser=1`}
          fill
         //  TODO for making loading for gallery images
         //  placeholder='blur'
