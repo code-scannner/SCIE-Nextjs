@@ -11,7 +11,7 @@ export default class index extends Component {
             <div>
                 <div className='h-[85vh] relative flex justify-center items-center text-white/95'>
                     <MainHeading className='relative z-30 mt-20 text-3xl sm:text-6xl md:text-7xl'>CONTACT US</MainHeading>
-                    <TopImage gradient={true} gradientHeight="7rem" src="./assets/images/website/contactpagebg.jpeg" imgStyle={{ filter: "saturate(1)" }} />
+                    <TopImage gradient={true} gradientHeight="7rem" src="http://drive.google.com/uc?export=view&id=1voqwlbeZcmAqBZ9PGM_SBxgt38UPB4Dz" imgStyle={{ filter: "saturate(1)" }} />
                 </div>
                 <div className='flex gap-x-8 mt-12 my-4 w-11/12 sm:w-9/12 mx-auto'>
                     <div>
@@ -19,7 +19,7 @@ export default class index extends Component {
                     </div>
                     <div className='p-8 flex flex-col text-center justify-center items-center gap-y-2 ring-2 ring-pri-200 rounded-lg bg-pri-25 ring-offset-2 ring-offset-white rounded-tr-none rounded-bl-none'>
                         <div className='w-48 h-48 overflow-hidden rounded-full'>
-                            <Image className='w-56 object-cover' src={"assets/images/team/incharge/anmolsir.jpg"} width={300} height={300} />
+                            <Image className='w-56 object-cover' src={"http://drive.google.com/uc?export=view&id=18yBZWhBat0s2PmC0TPAxJx3ciI-VWXer"} width={300} height={300} />
                         </div>
                         <div className='text-lg font-semibold text-stone-700'>Dr Anmol Ratna Saxena</div>
                         <div>Faculty Incharge, Startup Centre For Innovation And Entrepreneurship</div>

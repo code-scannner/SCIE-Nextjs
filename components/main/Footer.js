@@ -19,7 +19,7 @@ export default class Footer extends Component {
         { text: "About Us", link: "/#about" },
         { text: "Our Team", link: "/team" },
         { text: "Our Startups", link: "/commingsoon" },
-        { text: "Our Tieups", link: "/commingsoon" },
+        { text: "Our Collaborations", link: "/tieups" },
     ]
     render() {
         return (

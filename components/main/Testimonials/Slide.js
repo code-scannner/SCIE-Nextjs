@@ -12,7 +12,7 @@ export default class Slide extends Component {
                 <hr className='border border-solid border-pri-200/50' />
                 <div className='flex flex-col space-y-3 md:space-y-0 md:flex-row items-center gap-x-6'>
                     <div className='w-20 sm:w-24 h-20 sm:h-24'>
-                        <Image className='shadow-xl rounded-full' src={`./assets/images/testimonials/${pic}`} alt={name} width={100} height={100} />
+                        <Image className='shadow-xl rounded-full' src={`http://drive.google.com/uc?export=view&id=${pic}`} alt={name} width={100} height={100} />
                     </div>
                     <div className='flex flex-col gap-y-1 text-slate-900 text-center sm:text-left'>
                         <h3 className='text-lg sm:text-2xl font-bold my-0.5 sm:my-1 text-pri-500'>{name}</h3>

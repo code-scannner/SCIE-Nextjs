@@ -21,9 +21,9 @@ export default class index extends Component {
           />
         </div>
         <div className='grid lg:grid-cols-3 grid-cols-1 ml-20'>
-          <Card heading="Technology Innovation Hub " heading2="IIT Patna" src="https://images.indianexpress.com/2022/08/IIT-Patna.jpg"/>
-          <Card heading="Technology Innovation Hub " heading2="IIT Ropar" src="https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2020/07/11133801/maxresdefault2.jpg"/>
-          <Card heading="Atal Incubation Center " heading2="IIT Delhi" src="https://images.hindustantimes.com/img/2021/11/13/1600x900/_557208d8-055b-11eb-9a15-404ea3939013_1636792437702.png"/>
+          <Card heading="Vishlesan I-Hub Foundation " heading2="IIT Patna" src="https://images.indianexpress.com/2022/08/IIT-Patna.jpg"/>
+          <Card heading="Technology Innovation Hub - iHub - AWaDH " heading2="IIT Ropar" src="https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2020/07/11133801/maxresdefault2.jpg"/>
+          <Card heading="Atal Incubation Center " heading2="IIT Delhi" src="https://www.aic-iitd.in/wp-content/uploads/2021/11/First-banner.jpg"/>
         </div>
       </div>
     );

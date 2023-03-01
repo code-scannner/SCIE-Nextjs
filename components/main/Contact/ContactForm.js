@@ -14,7 +14,7 @@ export default class ContactForm extends Component {
                 <div className="container my-8 px-6 mx-auto">
                     <section className="mb-32 text-gray-900">
                         <div className="relative overflow-hidden h-[35rem] rounded-xl -z-20" >
-                            <Image src="./assets/images/website/contactbg.jpeg" alt='NIT Delhi Campus' fill className='object-cover' style={{ filter: "brightness(0.7)" }} />
+                            <Image src="http://drive.google.com/uc?export=view&id=1W10LQ4gTocoWcN9g9YwVC6K3X2uYl_6g" alt='NIT Delhi Campus' fill className='object-cover' style={{ filter: "brightness(0.7)" }} />
                             <div className='bg-pri-500/20 absolute inset-0' ></div>
                             <div className='bg-black/20 absolute inset-0' ></div>
                         </div>

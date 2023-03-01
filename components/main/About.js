@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 export default class About extends Component {
     icons = [
-        {text:'Diversifiers',image:"1.png"},
-        {text:'Organisers',image:"2.png"},
-        {text:'Venturous',image:"3.png"},
+        {text:'Diversifiers',image:"1gKMqUmlBhfCdIYvxYOsMipKePlhEk4pW"},
+        {text:'Organisers',image:"1s9qOu9KHVxCUo-t_5WsboYNQafnHBQXG"},
+        {text:'Venturous',image:"1dg8a-qDGjCOLHUvQHghPuVH0_qzbhdbq"},
     ]
     render() {
         return (
@@ -18,7 +18,7 @@ export default class About extends Component {
                     </div>
                     <div className='flex flex-col sm:flex-row space-x-6 sm:space-x-4 space-y-6'>
                         {this.icons.map(elem=><div key={elem.text} className='flex flex-col items-center'>
-                            <Image src={`./assets/images/about/${elem.image}`} className="w-28 sm:w-44 h-24 sm:h-44 mx-12" width={200} height={200} alt={elem.text} />
+                            <Image src={`http://drive.google.com/uc?export=view&id=${elem.image}`} className="w-28 sm:w-44 h-24 sm:h-44 mx-12" width={200} height={200} alt={elem.text} />
                             <span className='text-slate-500 font-semibold text-xl font-pri'>{elem.text}</span>
                         </div>)}
                     </div>

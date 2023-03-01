@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import TopImage from "../../components/special/TopImage";
 import MainHeading from "../../components/typography/MainHeading";
-import Card from "../../components/main/facilities/card"
+import Card from "../../components/main/blogs/card"
 
 
 export class facilities extends Component {
@@ -19,10 +19,11 @@ export class facilities extends Component {
             imgStyle={{ filter: "saturate(1)" }}
           />
         </div>
-        <div className='grid grid-cols-1 ml-20'>
-        <Card name="startup 1"/>
-        <Card name="startup 2"/>
-        <Card name="startup 3"/>
+        <div className='grid grid-cols-3 ml-20'>
+          <Card heading="Exponent" src="https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" button="Visit Now"/>
+          <Card heading="Fabsters" src="https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" button="Visit Now"/>
+          <Card heading="Palanam Technologies" src="https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" button="Visit Now"/>
+          <Card heading="Bosscoder" src="https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" button="Visit Now"/>
         </div>
       </div>
     )
