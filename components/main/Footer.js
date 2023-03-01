@@ -30,7 +30,7 @@ export default class Footer extends Component {
                         <div className="w-full px-4 md:w-2/3 lg:w-3/12">
                             <div className="mb-10 w-full text-center">
                                 <Link href={"/"} className="mb-0 md:mb-6 inline-block max-w-[160px] bg-white/80 rounded-full p-3">
-                                    <Image src="./assets/images/website/logo-r.png" alt="SCIE Logo" width={200} height={200} className="max-w-full" />
+                                    <Image src="http://drive.google.com/uc?export=view&id=1hzoN6jk44sIBsRS8EBw4rDsdxBdcyKap" alt="SCIE Logo" width={200} height={200} className="max-w-full" />
                                 </Link>
                                 <p className="mb-7 text-center text-pri-200 tracking-wider">
                                     National Institute of Technology Delhi, Plot No. FA7,Zone P1, GT Karnal Road, Delhi, 110036

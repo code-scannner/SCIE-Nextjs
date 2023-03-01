@@ -56,7 +56,7 @@ export default class Header extends Component {
               } p-2 rounded-[100%] transition-colors duration-500`}
             >
               <Image
-                src="./assets/images/website/logo-r.png"
+                src="http://drive.google.com/uc?export=view&id=1hzoN6jk44sIBsRS8EBw4rDsdxBdcyKap"
                 alt="SCIE Logo"
                 width={120}
                 height={120}
