@@ -11,7 +11,7 @@ export default class TeamCard extends Component {
             <div className={`flex flex-col items-center ${className ?? ""}`}>
                 <div className='relative groupimg rounded-full'>
                     <div className={`${size == "lg"? "w-32 h-32 sm:w-52 sm:h-52" : size=="xl"?"w-44 h-44 sm:w-64 sm:h-64": "w-28 h-28 sm:w-40 sm:h-40"} overflow-hidden shadow-xl rounded-full m-3 ring-2 ring-pri-600 ring-offset-2 ring-offset-white transition-[box-shadow] duration-300`}>
-                        <Image className='transition-[filter] duration-300 group-[img]:group-hover:saturate-150' src={`${pic}`} width={300} height={300} alt={name} />
+                        <Image className='transition-[filter] duration-300 group-[img]:group-hover:saturate-150' src={`http://drive.google.com/uc?export=view&id=${pic}`} width={300} height={300} alt={name} />
                     </div>
                 </div>
                 <h2 className='uppercase font-medium text-center p-1 text-base sm:text-lg tracking-wide text-gray-900'>{name}</h2>
