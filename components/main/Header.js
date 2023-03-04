@@ -2,7 +2,7 @@ import { Component } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "../utils/Button";
-import Dropdown from "../main/header/dropdown";
+import { RiArrowDropDownLine, RiArrowDropUpLine } from 'react-icons/ri'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 export default class Header extends Component {
@@ -10,6 +10,16 @@ export default class Header extends Component {
     { text: "Home", link: "/" },
     { text: "About", link: "/#about" },
     { text: "Events", link: "/events" },
+    {
+      text: "Incubation",
+      submenu: [
+        { text: "Facilities", link: "/" },
+        { text: "Mentors", link: "/" },
+        { text: "Startups", link: "/" },
+      ]
+    },
+    { text: "Collaborations", link: "/tieups" },
+    { text: "Team", link: "/team" },
     // { text: "Gallery", link: "/#gallery" },
     // { text: "Blogs", link: "/blogs" },
     // { text: "Sponsors", link: "/#sponsors" },
@@ -18,8 +28,6 @@ export default class Header extends Component {
     // { text: "Facilities", link: "/facilities", submenu: true },
     // { text: "Incubated Startups", link: "/incubatedstartups", submenu: true },
     // { text: "Mentors", link: "/mentor", submenu: true },
-    { text: "Collaborations", link: "/tieups" },
-    { text: "Team", link: "/team" },
   ];
 
   state = {
@@ -44,16 +52,14 @@ export default class Header extends Component {
   render() {
     return (
       <nav
-        className={`${
-          this.state.darkTheme ? "bg-pri-50/80 backdrop-blur-2xl" : ""
-        } px-2 sm:px-4 py-3 fixed w-full z-50 transition-colors duration-500`}
+        className={`${this.state.darkTheme ? "bg-pri-50/80 backdrop-blur-2xl" : ""
+          } px-2 sm:px-4 py-3 fixed w-full z-50 transition-colors duration-500`}
       >
         <div>
           <Link href="/" className="flex items-center">
             <div
-              className={`absolute top-2 ${
-                this.state.darkTheme ? "bg-white" : ""
-              } p-2 rounded-[100%] transition-colors duration-500`}
+              className={`absolute top-2 ${this.state.darkTheme ? "bg-white" : ""
+                } p-2 rounded-[100%] transition-colors duration-500`}
             >
               <Image
                 src="http://drive.google.com/uc?export=view&id=1hzoN6jk44sIBsRS8EBw4rDsdxBdcyKap"
@@ -95,59 +101,14 @@ export default class Header extends Component {
                     onClick={this.toggleMenu}
                   />
                 </li>
-                {/* {this.headerLinks.map((elem) => (
-                  <li
-                    key={elem.text}
-                    onClick={this.toggleMenu}
-                    className="border border-transparent lg:border-none border-y-2 border-x-0 py-2 hover:border-pri-300/20 transition-[border-color]"
-                  >
-                    {elem.submenu ? (
-                      <Dropdown />
-                    ) : (
-                      <Link
-                        href={elem.link}
-                        className={`block text-pri-200 ${
-                          this.state.darkTheme
-                            ? "lg:hover:text-pri-500 lg:text-slate-700"
-                            : "lg:hover:text-pri-200 lg:text-white"
-                        } rounded hover:text-white px-2 tracking-wide text-base transition-colors`}
-                      >
-                        {elem.text}
-                      </Link>
-                    )}
-                     
 
-                  </li>
-                ))} */}
+                {this.headerLinks.map((elem) => {
 
-
-
-                {this.headerLinks.map((elem)=>{
-
-                        return (
-                            <li
-                            key={elem.text}
-                            onClick={this.toggleMenu}
-                            className="border border-transparent lg:border-none border-y-2 border-x-0 py-2 hover:border-pri-300/20 transition-[border-color]"
-                          >
-                            
-                              <Link
-                                href={elem.link}
-                                className={`block text-pri-200 ${
-                                  this.state.darkTheme
-                                    ? "lg:hover:text-pri-500 lg:text-slate-700"
-                                    : "lg:hover:text-pri-200 lg:text-white"
-                                } rounded hover:text-white px-2 tracking-wide text-base transition-colors`}
-                              >
-                                {elem.text}
-                              </Link>
-                            
-                             {/* Item */}
-        
-                          </li>
-                        )
-                    
-                   
+                  return (
+                    elem.submenu ?
+                      <Dropdown key={elem.text} darkTheme={this.state.darkTheme} onClick={this.toggleMenu} elem={elem} />
+                      : <HeaderLink key={elem.text} elem={elem} onClick={this.toggleMenu} darkTheme={this.state.darkTheme} />
+                  )
                 })}
               </ul>
             </div>
@@ -155,5 +116,60 @@ export default class Header extends Component {
         </div>
       </nav>
     );
+  }
+}
+
+class HeaderLink extends Component {
+  render() {
+    return (
+
+      <li
+        onClick={this.props.onClick}
+        className="border border-transparent lg:border-none border-y-2 border-x-0 py-2 hover:border-pri-300/20 transition-[border-color]"
+      >
+        <Link
+          href={this.props.elem.link}
+          className={`block text-pri-200 ${this.props.darkTheme
+            ? "lg:hover:text-pri-500 lg:text-slate-700"
+            : "lg:hover:text-pri-200 lg:text-white"
+            } rounded hover:text-white px-2 tracking-wide text-base transition-colors`}
+        >
+          {this.props.elem.text}
+        </Link>
+      </li>
+    )
+  }
+}
+
+class Dropdown extends Component {
+  state = {
+    menu: false
+  }
+  toggleMenu = () => this.setState(state => ({ menu: !state.menu }))
+  render() {
+    return (
+      <li onClick={this.toggleMenu}
+        className="cursor-pointer relative border border-transparent lg:border-none border-y-2 border-x-0 py-2 hover:border-pri-300/20 transition-[border-color]">
+        <div className={`flex text-pri-200 ${this.props.darkTheme
+          ? "lg:hover:text-pri-500 lg:text-slate-700"
+          : "lg:hover:text-pri-200 lg:text-white"
+          } rounded hover:text-pri-100 px-2 tracking-wide text-base transition-colors`}>
+          <span className="mb-2">Incubation</span>
+          <span className="text-2xl">
+            {this.state.menu ? <RiArrowDropUpLine /> :
+              <RiArrowDropDownLine />}
+          </span>
+        </div>
+        <section className="lg:absolute p-3 w-full lg:text-center bg-pri-300/10 lg:bg-pri-100 lg:ring-2 lg:ring-pri-300/20 lg:shadow-md lg:ring-offset-1 lg:ring-offset-white rounded-md top-full" style={{ display: this.state.menu ? "block" : "none" }}>
+          {this.props.elem.submenu.map(elem =>
+            <Link key={elem.text} onClick={this.props.onClick} href={elem.link}
+              className="block p-1 text-pri-200 lg:hover:text-pri-500 lg:text-slate-600 rounded hover:text-white px-2 py-2 tracking-wide lg:text-[.9rem] text-base transition-colors"
+            >
+              {elem.text}
+            </Link>
+          )}
+        </section>
+      </li>
+    )
   }
 }
