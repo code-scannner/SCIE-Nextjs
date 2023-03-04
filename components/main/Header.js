@@ -10,24 +10,17 @@ export default class Header extends Component {
     { text: "Home", link: "/" },
     { text: "About", link: "/#about" },
     { text: "Events", link: "/events" },
+    { text: "Blogs", link: "/blogs" },
     {
       text: "Incubation",
       submenu: [
-        { text: "Facilities", link: "/" },
-        { text: "Mentors", link: "/" },
-        { text: "Startups", link: "/" },
+        { text: "Facilities", link: "/facilities" },
+        { text: "Mentors", link: "/mentor" },
+        { text: "Incubated Startups", link: "/incubatedstartups" },
       ]
     },
     { text: "Collaborations", link: "/tieups" },
     { text: "Team", link: "/team" },
-    // { text: "Gallery", link: "/#gallery" },
-    // { text: "Blogs", link: "/blogs" },
-    // { text: "Sponsors", link: "/#sponsors" },
-    // { text: "Incubated StartUps", link: "/commingsoon" },
-    // { text: "Incubation Facilties", link: "/commingsoon" },
-    // { text: "Facilities", link: "/facilities", submenu: true },
-    // { text: "Incubated Startups", link: "/incubatedstartups", submenu: true },
-    // { text: "Mentors", link: "/mentor", submenu: true },
   ];
 
   state = {
