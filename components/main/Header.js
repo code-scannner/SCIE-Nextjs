@@ -5,6 +5,7 @@ import Button from "../utils/Button";
 import { RiArrowDropDownLine, RiArrowDropUpLine } from 'react-icons/ri'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
+import animations from '../../styles/Animation.module.css';
 export default class Header extends Component {
   headerLinks = [
     { text: "Home", link: "/" },
@@ -35,6 +36,7 @@ export default class Header extends Component {
     }
   };
   componentDidMount = () => {
+    console.log(animations);
     window.addEventListener("scroll", this.toggleDarkTheme, false);
   };
   componentWillUnmount = () => {
@@ -136,32 +138,37 @@ class HeaderLink extends Component {
 
 class Dropdown extends Component {
   state = {
-    menu: false
+    menu: true
   }
   toggleMenu = () => this.setState(state => ({ menu: !state.menu }))
+  onLinkClick = ()=>{
+      this.props.onClick();
+      this.setState({menu:false});
+  }
   render() {
     return (
-      <li onClick={this.toggleMenu}
+      <li onMouseEnter={() => this.setState({ menu: true })} onMouseLeave={() => this.setState({ menu: false })}
         className="cursor-pointer relative border border-transparent lg:border-none border-y-2 border-x-0 py-2 hover:border-pri-300/20 transition-[border-color]">
         <div className={`flex text-pri-200 ${this.props.darkTheme
           ? "lg:hover:text-pri-500 lg:text-slate-700"
           : "lg:hover:text-pri-200 lg:text-white"
           } rounded hover:text-pri-100 px-2 tracking-wide text-base transition-colors`}>
-          <span className="mb-2">Incubation</span>
+          <span>{this.props.elem.text}</span>
           <span className="text-2xl">
             {this.state.menu ? <RiArrowDropUpLine /> :
               <RiArrowDropDownLine />}
           </span>
         </div>
-        <section className="lg:absolute p-3 w-full lg:text-center bg-pri-300/10 lg:bg-pri-100 lg:ring-2 lg:ring-pri-300/20 lg:shadow-md lg:ring-offset-1 lg:ring-offset-white rounded-md top-full" style={{ display: this.state.menu ? "block" : "none" }}>
+        {this.state.menu && <section className={"lg:absolute p-3 w-full lg:w-[125%] lg:text-center bg-pri-300/10 lg:bg-pri-50 lg:ring-2 lg:ring-pri-700/20 lg:shadow-md lg:ring-offset-1 lg:ring-offset-white rounded-md top-full "+ animations["header-dropdown"]} >
+          <span className="hidden lg:block absolute -top-[13px] w-0 h-0 border-[6px] border-transparent border-b-pri-100 bg-transparent" style={{left:"calc(50% - 6px)"}}></span>
           {this.props.elem.submenu.map(elem =>
-            <Link key={elem.text} onClick={this.props.onClick} href={elem.link}
+            <Link key={elem.text} onClick={this.onLinkClick} href={elem.link}
               className="block p-1 text-pri-200 lg:hover:text-pri-500 lg:text-slate-600 rounded hover:text-white px-2 py-2 tracking-wide lg:text-[.9rem] text-base transition-colors"
             >
               {elem.text}
             </Link>
           )}
-        </section>
+        </section>}
       </li>
     )
   }

@@ -16,7 +16,7 @@ export default class index extends Component {
             gradient={true}
             gradientHeight="7rem"
             src="https://images.unsplash.com/photo-1516414447565-b14be0adf13e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmxvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-            imgStyle={{ filter: "saturate(1)" }}
+            
           />
         </div>
         <div className='grid grid-cols-3 ml-20'>
