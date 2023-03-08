@@ -36,7 +36,6 @@ export default class Header extends Component {
     }
   };
   componentDidMount = () => {
-    console.log(animations);
     window.addEventListener("scroll", this.toggleDarkTheme, false);
   };
   componentWillUnmount = () => {
@@ -138,7 +137,7 @@ class HeaderLink extends Component {
 
 class Dropdown extends Component {
   state = {
-    menu: true
+    menu: false
   }
   toggleMenu = () => this.setState(state => ({ menu: !state.menu }))
   onLinkClick = ()=>{

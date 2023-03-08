@@ -50,7 +50,7 @@ export default class Testimonials extends Component {
           >
             {ttmonials.map(elem => (
               <div key={elem.name} className="flex items-stretch justify-center w-full h-full" >
-                <div className="max-w-[600px] text-center">
+                <div className="max-w-[600px] h-fit text-center">
                   <Slide {...elem} />
                 </div>
               </div>

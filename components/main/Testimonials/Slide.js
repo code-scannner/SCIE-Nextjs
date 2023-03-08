@@ -5,7 +5,7 @@ export default class Slide extends Component {
     render() {
         const { name, work, post, pic, words } = this.props
         return (
-            <div className='w-full h-full justify-between p-8 flex flex-col gap-y-4 bg-pri-25 rounded-lg border-2 border-solid border-pri-200 pb-12'>
+            <div className='w-full h-full justify-center p-8 flex flex-col gap-y-4 bg-pri-25 rounded-lg border-2 border-solid border-pri-200 pb-12'>
                 <div>
                     <p className='text-sm sm:text-base'><ImQuotesLeft className='inline text-pri-600 text-sm sm:text-2xl mb-2 mx-2 font-medium' />{words}<ImQuotesRight className='inline text-pri-600 text-sm sm:text-2xl mb-2 mx-2' /></p>
                 </div>
